@@ -1,0 +1,41 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\usepackage{blindtext}
+\usepackage{hyperref}
+
+\usepackage{listings}
+
+
+\title{Progetto Principi di Ingegneria dell'Informazione}
+\author{Aprile Matteo, Goffredo Filippo}
+\date{data da aggiungere}
+
+\begin{document}
+
+    \maketitle
+    \tableofcontents
+
+    \part{Creational Patterns}
+    \include{AbstractFactory/Abstract Factory.tex}
+    \include{FactoryMethod/Factory Method.tex}
+    \include{Singleton/Singleton.tex}
+    
+    \part{Structural Patterns}
+    \include{Bridge/Bridge.tex}
+    \include{Composite/Composite.tex}
+    \include{Decorator/Decorator.tex}
+
+    \part{Behavioral Patterns}
+    \include{Command/Command.tex}
+    %\include{Iterator/Iterator.tex}
+    \include{Observer/Observer.tex}
+    \include{Strategy/Strategy.tex}
+    \include{Visitor/Visitor.tex}
+
+\end{document}
