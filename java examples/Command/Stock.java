@@ -1,0 +1,19 @@
+package Command;
+
+public class Stock {
+    private String name;
+    private int quantity;
+
+    public Stock(String name, int quantity) {
+        this.name = name;
+        this.quantity = quantity;
+    }
+
+    public void buy(){
+        System.out.println("comprati " + name + " che contine " + quantity + " prodotti");
+    }
+
+    public void sell(){
+        System.out.println("venduti " + name + " che contine " + quantity + " prodotti");
+    }
+}
